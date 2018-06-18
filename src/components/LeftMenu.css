@@ -1,0 +1,28 @@
+.leftMenuContainer {
+    width:25%;
+    height:100vh;
+    float:left;
+    position:relative;
+}
+
+.leftMenu {
+    position:absolute;
+    top:50%;
+    right:2rem;
+    transform: translateY(-50%);
+}
+
+@media screen and (max-width:768px) {
+    .leftMenuContainer {
+        width:100%;
+        height:auto;
+        display:none;
+    }
+
+    .leftMenu {
+        position:relative;
+        transform: initial;
+        right:initial;
+        top:initial;
+    }
+}

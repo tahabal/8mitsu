@@ -1,0 +1,9 @@
+.cv {
+    padding: 0 10rem;
+    padding-top: 5rem;
+    width: 85%;
+}
+
+.cv .subtext {
+    font-size:0.8em;
+}

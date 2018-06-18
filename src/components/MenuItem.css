@@ -1,0 +1,34 @@
+
+.menuItem {
+    text-align:left;
+    display:block;
+    font-weight: 300;
+    font-size:1.75rem;
+    text-transform: uppercase;
+    position:relative;
+    margin-bottom:2rem;
+    text-decoration: none !important;
+    transition:.2s all;
+}
+
+.menuItem:hover {
+    transform:translateX(1rem);
+}
+
+.menuItem.active::after {
+    content:"▷";
+    font-size:1.1rem;
+    position:absolute;
+    right:-2rem;
+    top:5px;
+}
+
+@media screen and (max-width:768px) {
+    .menuItem, .menuItem h3{
+        display:inline;
+    }
+
+    .menuitem:not(:last-child)::after {
+        content:"/";
+    }
+}

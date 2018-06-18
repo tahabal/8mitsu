@@ -1,0 +1,12 @@
+.content-wrapper {
+    width:75%;
+    float:right;
+    height:100vh;
+}
+
+@media screen and (max-width:768px) {
+    .content-wrapper {
+        width:100%;
+        height:auto;
+    }
+}

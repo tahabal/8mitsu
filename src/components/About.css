@@ -1,0 +1,11 @@
+.about {
+    padding: 0 10rem;
+    display:table-cell;
+    vertical-align: middle;
+}
+
+@media screen and (max-width:768px){
+    .about {
+        padding:1rem 1rem;
+    }
+}
