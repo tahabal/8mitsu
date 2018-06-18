@@ -1,6 +1,11 @@
 
 #root { height: 100%;}
 
+a {
+  color: #ff6c6c !important;
+  text-decoration: none !important;
+}
+
 .animated-page-wrapper {
   height:100vh;
   display:table;

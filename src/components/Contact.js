@@ -13,16 +13,16 @@ class Contact extends Component {
                 <p>You can contact me via one of these stuff, or be creative and send a pidgeon.</p>
                 <div className="socialBox">
                     <a href="https://github.com/tahabal" className="social">
-                        <IoSocialGithub size="30" />
+                        <IoSocialGithub size="50" />
                     </a>
                     <a href="https://www.linkedin.com/in/tahabal/" className="social">
-                        <IoSocialLinkedin size="30" />
+                        <IoSocialLinkedin size="50" />
                     </a>
                     <a href="tel:+905384048615" className="social">
-                        <IoIosTelephone size="30" />
+                        <IoIosTelephone size="50" />
                     </a>
                     <a href="mailto:taha@8mitsu.io" className="social">
-                        <IoIosEmail size="30" />
+                        <IoIosEmail size="50" />
                     </a>
                 </div>
             </div>
